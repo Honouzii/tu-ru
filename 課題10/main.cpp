@@ -1,0 +1,14 @@
+#include <iostream>
+#include "Circle.h"
+using namespace std;
+
+int main() {
+	float m; //ñ êœ
+	float r = 5.0f; //îºåa
+
+	Circle c;
+
+	m = c.Menseki(r);
+
+	std::cout << "îºåa" << r << "ÇÃñ êœÇÕ:" << m << "cáu" << endl;
+}
